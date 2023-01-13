@@ -31,7 +31,7 @@
 							<button type="submit" class="btn bg-dark text-white col-md-12">Login</button>
 						</form>
 
-						<br> Don't have an account? <a href="#"
+						<br> Don't have an account? <a href="Signup.jsp"
 							class="text-decoration-none"> create one</a>
 
 					</div>
