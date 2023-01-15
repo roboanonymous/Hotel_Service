@@ -21,7 +21,7 @@
 					<div class="card-body">
 						<p class="fs-4 text-center">User Register</p>
 
-						<c:if test="${not empty sucMsg }">
+				<%-- 		<c:if test="${not empty sucMsg }">
 							<p class="text-center text-success fs-3">${sucMsg}</p>
 							<c:remove var="sucMsg" scope="session" />
 						</c:if>
@@ -30,7 +30,7 @@
 							<p class="text-center text-danger fs-3">${errorMsg}</p>
 							<c:remove var="errorMsg" scope="session" />
 						</c:if>
-
+ --%>
 						<form action="user_register" method="post">
 							<div class="mb-3">
 								<label class="form-label">Full Name</label> <input required
