@@ -8,17 +8,12 @@ public class DBconnect {
 		
 		try
 		{
-			//Class.forName("com.mysql.cj.jdbc.Driver");
-			System.out.println("yha tak system chala 1");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			//Create a connection
-			String url = "jdbc:mysql://localhost:3306/youtube";
-			System.out.println("yha tak system chala 2");
-			String username = "root";
-			System.out.println("yha tak system chala 3");
-			String password = "samyak123";
-			System.out.println("yha tak system chala 4");
 			
-			Connection conn = DriverManager.getConnection(url, username, password);
+			String username = "root";
+			String password = "samyak123";	
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel", username, password);
 			System.out.println("conn is created");
 		}
 		catch (Exception e)
